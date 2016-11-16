@@ -12,6 +12,7 @@
 		1BCB960F1DCD51DC00C0B6AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB960D1DCD51DC00C0B6AE /* Main.storyboard */; };
 		1BCB96111DCD51DC00C0B6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB96101DCD51DC00C0B6AE /* Assets.xcassets */; };
 		1BCB96141DCD51DC00C0B6AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB96121DCD51DC00C0B6AE /* LaunchScreen.storyboard */; };
+		1BCB961D1DCD539D00C0B6AE /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB961C1DCD539D00C0B6AE /* HttpClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1BCB96101DCD51DC00C0B6AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCB96131DCD51DC00C0B6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCB96151DCD51DC00C0B6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCB961C1DCD539D00C0B6AE /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1BCB96081DCD51DC00C0B6AE /* Clima */ = {
 			isa = PBXGroup;
 			children = (
+				1BCB961B1DCD538C00C0B6AE /* Net */,
 				1BCB96091DCD51DC00C0B6AE /* AppDelegate.swift */,
 				1BCB960B1DCD51DC00C0B6AE /* ViewController.swift */,
 				1BCB960D1DCD51DC00C0B6AE /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				1BCB96151DCD51DC00C0B6AE /* Info.plist */,
 			);
 			path = Clima;
+			sourceTree = "<group>";
+		};
+		1BCB961B1DCD538C00C0B6AE /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB961C1DCD539D00C0B6AE /* HttpClient.swift */,
+			);
+			name = Net;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BCB960C1DCD51DC00C0B6AE /* ViewController.swift in Sources */,
+				1BCB961D1DCD539D00C0B6AE /* HttpClient.swift in Sources */,
 				1BCB960A1DCD51DC00C0B6AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
